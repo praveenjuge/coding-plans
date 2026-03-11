@@ -43,8 +43,6 @@
     body {
       margin: 0;
       font: 400 1rem/var(--line-height) -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: var(--page-bg);
-      color: var(--text);
     }
 
     .page {
@@ -225,58 +223,37 @@
       ["Lovable", "Business", "$50", "Monthly", "100 credits/month; SSO; team workspace; role-based access; security center", "Shared across unlimited users", "https://lovable.dev/pricing"]
     ];
 
-    document.getElementById("plans-body").innerHTML = plans.map(([p, plan, price, billing, get, notes, src]) => `
-      <tr>
-        <td class="provider"><a href="${src}">${p}</a></td>
-        <td>${plan}</td>
-        <td>${price}</td>
-        <td>${billing}</td>
-        <td>${get}</td>
-        <td>${notes}</td>
-        <td class="source"><a href="${src}">Official</a></td>
-      </tr>
-    `).join("");
+    document.getElementById("plans-body").innerHTML = plans.map(([p, l, r, b, g, n, s]) => `<tr><td class="provider"><a href="${s}">${p}</a></td><td>${l}</td><td>${r}</td><td>${b}</td><td>${g}</td><td>${n}</td><td class="source"><a href="${s}">Official</a></td></tr>`).join("");
 
-    const providerLogos = new Map([
-      ["Claude Code", "https://svgl.app/library/claude-ai-icon.svg"],
-      ["OpenAI Codex", "https://svgl.app/library/openai.svg"],
-      ["OpenCode", "https://models.dev/logos/opencode.svg"],
-      ["MiniMax", "https://models.dev/logos/minimax.svg"],
-      ["Qwen Coding Plan", "https://svgl.app/library/qwen_light.svg"],
-      ["Moonshot Kimi Code", "https://svgl.app/library/kimi-icon.svg"],
-      ["GitHub Copilot", "https://svgl.app/library/copilot.svg"],
-      ["Cursor AI", "https://svgl.app/library/cursor_light.svg"],
-      ["Windsurf", "https://svgl.app/library/windsurf-light.svg"],
-      ["Zencoder", "https://models.dev/logos/zencoder.svg"],
-      ["Replit Agent", "https://svgl.app/library/replit.svg"],
-      ["Devin AI", "https://models.dev/logos/devin.svg"],
-      ["CodeGPT", "https://models.dev/logos/codegpt.svg"],
-      ["Tembo", "https://svgl.app/library/tembo.svg"],
-      ["Amazon Q Developer", "https://svgl.app/library/amazon-q.svg"],
-      ["Augment Code", "https://models.dev/logos/augment.svg"],
-      ["Kiro IDE", "https://models.dev/logos/kiro.svg"],
-      ["Qoder", "https://models.dev/logos/qoder.svg"],
-      ["Factory.ai (Droid)", "https://models.dev/logos/factory.svg"],
-      ["v0 by Vercel", "https://svgl.app/library/vercel.svg"],
-      ["Lovable", "https://svgl.app/library/lovable.svg"]
-    ]);
+    const logos = {
+      "Claude Code": "https://svgl.app/library/claude-ai-icon.svg",
+      "OpenAI Codex": "https://svgl.app/library/openai.svg",
+      "OpenCode": "https://models.dev/logos/opencode.svg",
+      "MiniMax": "https://models.dev/logos/minimax.svg",
+      "Qwen Coding Plan": "https://svgl.app/library/qwen_light.svg",
+      "Moonshot Kimi Code": "https://svgl.app/library/kimi-icon.svg",
+      "GitHub Copilot": "https://svgl.app/library/copilot.svg",
+      "Cursor AI": "https://svgl.app/library/cursor_light.svg",
+      "Windsurf": "https://svgl.app/library/windsurf-light.svg",
+      "Zencoder": "https://models.dev/logos/zencoder.svg",
+      "Replit Agent": "https://svgl.app/library/replit.svg",
+      "Devin AI": "https://models.dev/logos/devin.svg",
+      "CodeGPT": "https://models.dev/logos/codegpt.svg",
+      "Tembo": "https://svgl.app/library/tembo.svg",
+      "Amazon Q Developer": "https://svgl.app/library/amazon-q.svg",
+      "Augment Code": "https://models.dev/logos/augment.svg",
+      "Kiro IDE": "https://models.dev/logos/kiro.svg",
+      "Qoder": "https://models.dev/logos/qoder.svg",
+      "Factory.ai (Droid)": "https://models.dev/logos/factory.svg",
+      "v0 by Vercel": "https://svgl.app/library/vercel.svg",
+      "Lovable": "https://svgl.app/library/lovable.svg"
+    };
 
     for (const link of document.querySelectorAll(".provider a")) {
-      const providerName = link.textContent.replace(/\s+/g, " ").trim();
-      const logoSrc = providerLogos.get(providerName);
-
-      if (!logoSrc || link.querySelector(".provider-logo")) {
-        continue;
-      }
-
-      const logo = document.createElement("img");
-      logo.className = "provider-logo";
-      logo.src = logoSrc;
-      logo.alt = "";
-      logo.width = 14;
-      logo.height = 14;
-      logo.loading = "lazy";
-      logo.decoding = "async";
+      const name = link.textContent.trim();
+      const src = logos[name];
+      if (!src || link.querySelector(".provider-logo")) continue;
+      const logo = Object.assign(document.createElement("img"), { className: "provider-logo", src, loading: "lazy", decoding: "async", width: 14, height: 14 });
       link.prepend(logo);
     }
   </script>
