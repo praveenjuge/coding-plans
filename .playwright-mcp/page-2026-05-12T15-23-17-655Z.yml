@@ -1,0 +1,1184 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - heading "Coding Plans" [level=1] [ref=e4]
+    - link "Edit in GitHub" [ref=e5] [cursor=pointer]:
+      - /url: https://github.com/praveenjuge/coding-plans/
+  - main [ref=e6]:
+    - table "Official pricing and usage, updated May 12, 2026." [ref=e8]:
+      - caption [ref=e9]: Official pricing and usage, updated May 12, 2026.
+      - rowgroup [ref=e10]:
+        - row "Provider Plan Price Billing What You Get Notes Source" [ref=e11]:
+          - columnheader "Provider" [ref=e12]
+          - columnheader "Plan" [ref=e13]
+          - columnheader "Price" [ref=e14]
+          - columnheader "Billing" [ref=e15]
+          - columnheader "What You Get" [ref=e16]
+          - columnheader "Notes" [ref=e17]
+          - columnheader "Source" [ref=e18]
+      - rowgroup [ref=e19]:
+        - row "Claude Code Pro $20 Monthly or annual Standard Claude and Claude Code capacity; approx. 10-40 Claude Code prompts per 5 hours Extra usage bundles available Official" [ref=e20]:
+          - cell "Claude Code" [ref=e21]:
+            - link "Claude Code" [ref=e22] [cursor=pointer]:
+              - /url: https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan
+              - img [ref=e23]
+              - text: Claude Code
+          - cell "Pro" [ref=e24]
+          - cell "$20" [ref=e25]
+          - cell "Monthly or annual" [ref=e26]
+          - cell "Standard Claude and Claude Code capacity; approx. 10-40 Claude Code prompts per 5 hours" [ref=e27]
+          - cell "Extra usage bundles available" [ref=e28]
+          - cell "Official" [ref=e29]:
+            - link "Official" [ref=e30] [cursor=pointer]:
+              - /url: https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan
+        - row "Claude Code Max 5x $100 Monthly 5x Pro capacity per session; approx. 50-200 Claude Code prompts per 5 hours Extra usage bundles available Official" [ref=e31]:
+          - cell "Claude Code" [ref=e32]:
+            - link "Claude Code" [ref=e33] [cursor=pointer]:
+              - /url: https://support.claude.com/en/articles/11049762-choosing-a-claude-plan
+              - img [ref=e34]
+              - text: Claude Code
+          - cell "Max 5x" [ref=e35]
+          - cell "$100" [ref=e36]
+          - cell "Monthly" [ref=e37]
+          - cell "5x Pro capacity per session; approx. 50-200 Claude Code prompts per 5 hours" [ref=e38]
+          - cell "Extra usage bundles available" [ref=e39]
+          - cell "Official" [ref=e40]:
+            - link "Official" [ref=e41] [cursor=pointer]:
+              - /url: https://support.claude.com/en/articles/11049762-choosing-a-claude-plan
+        - row "Claude Code Max 20x $200 Monthly 20x Pro capacity per session; approx. 200-800 Claude Code prompts per 5 hours Extra usage bundles available Official" [ref=e42]:
+          - cell "Claude Code" [ref=e43]:
+            - link "Claude Code" [ref=e44] [cursor=pointer]:
+              - /url: https://support.claude.com/en/articles/11049762-choosing-a-claude-plan
+              - img [ref=e45]
+              - text: Claude Code
+          - cell "Max 20x" [ref=e46]
+          - cell "$200" [ref=e47]
+          - cell "Monthly" [ref=e48]
+          - cell "20x Pro capacity per session; approx. 200-800 Claude Code prompts per 5 hours" [ref=e49]
+          - cell "Extra usage bundles available" [ref=e50]
+          - cell "Official" [ref=e51]:
+            - link "Official" [ref=e52] [cursor=pointer]:
+              - /url: https://support.claude.com/en/articles/11049762-choosing-a-claude-plan
+        - 'row "OpenAI Codex Plus $20 Monthly GPT-5.5: 15-80 local messages per 5 hours; GPT-5.3-Codex: 30-150 local, 10-60 cloud tasks, 20-50 reviews Shared 5-hour window; weekly limits may apply Official" [ref=e53]':
+          - cell "OpenAI Codex" [ref=e54]:
+            - link "OpenAI Codex" [ref=e55] [cursor=pointer]:
+              - /url: https://developers.openai.com/codex/pricing
+              - img [ref=e56]
+              - text: OpenAI Codex
+          - cell "Plus" [ref=e57]
+          - cell "$20" [ref=e58]
+          - cell "Monthly" [ref=e59]
+          - 'cell "GPT-5.5: 15-80 local messages per 5 hours; GPT-5.3-Codex: 30-150 local, 10-60 cloud tasks, 20-50 reviews" [ref=e60]'
+          - cell "Shared 5-hour window; weekly limits may apply" [ref=e61]
+          - cell "Official" [ref=e62]:
+            - link "Official" [ref=e63] [cursor=pointer]:
+              - /url: https://developers.openai.com/codex/pricing
+        - 'row "OpenAI Codex Pro 5x $100 Monthly GPT-5.5: 80-400 local messages per 5 hours; GPT-5.3-Codex: 150-750 local, 50-300 cloud tasks, 100-250 reviews 2x promo through May 31, 2026 Official" [ref=e64]':
+          - cell "OpenAI Codex" [ref=e65]:
+            - link "OpenAI Codex" [ref=e66] [cursor=pointer]:
+              - /url: https://developers.openai.com/codex/pricing
+              - img [ref=e67]
+              - text: OpenAI Codex
+          - cell "Pro 5x" [ref=e68]
+          - cell "$100" [ref=e69]
+          - cell "Monthly" [ref=e70]
+          - 'cell "GPT-5.5: 80-400 local messages per 5 hours; GPT-5.3-Codex: 150-750 local, 50-300 cloud tasks, 100-250 reviews" [ref=e71]'
+          - cell "2x promo through May 31, 2026" [ref=e72]
+          - cell "Official" [ref=e73]:
+            - link "Official" [ref=e74] [cursor=pointer]:
+              - /url: https://developers.openai.com/codex/pricing
+        - 'row "OpenAI Codex Pro 20x $200 Monthly GPT-5.5: 300-1,600 local messages per 5 hours; GPT-5.3-Codex: 600-3,000 local, 200-1,200 cloud tasks, 400-1,000 reviews Boosted limits through May 31, 2026 Official" [ref=e75]':
+          - cell "OpenAI Codex" [ref=e76]:
+            - link "OpenAI Codex" [ref=e77] [cursor=pointer]:
+              - /url: https://developers.openai.com/codex/pricing
+              - img [ref=e78]
+              - text: OpenAI Codex
+          - cell "Pro 20x" [ref=e79]
+          - cell "$200" [ref=e80]
+          - cell "Monthly" [ref=e81]
+          - 'cell "GPT-5.5: 300-1,600 local messages per 5 hours; GPT-5.3-Codex: 600-3,000 local, 200-1,200 cloud tasks, 400-1,000 reviews" [ref=e82]'
+          - cell "Boosted limits through May 31, 2026" [ref=e83]
+          - cell "Official" [ref=e84]:
+            - link "Official" [ref=e85] [cursor=pointer]:
+              - /url: https://developers.openai.com/codex/pricing
+        - row "OpenAI Codex Business Pay as you go Workspace billing Plus-level per-seat usage by default; flexible workspace credits available Enterprise/Edu can scale with credits Official" [ref=e86]:
+          - cell "OpenAI Codex" [ref=e87]:
+            - link "OpenAI Codex" [ref=e88] [cursor=pointer]:
+              - /url: https://developers.openai.com/codex/pricing
+              - img [ref=e89]
+              - text: OpenAI Codex
+          - cell "Business" [ref=e90]
+          - cell "Pay as you go" [ref=e91]
+          - cell "Workspace billing" [ref=e92]
+          - cell "Plus-level per-seat usage by default; flexible workspace credits available" [ref=e93]
+          - cell "Enterprise/Edu can scale with credits" [ref=e94]
+          - cell "Official" [ref=e95]:
+            - link "Official" [ref=e96] [cursor=pointer]:
+              - /url: https://developers.openai.com/codex/pricing
+        - row "OpenAI Codex API Key Usage-based API billing CLI, SDK, or IDE extension usage billed by tokens No cloud tasks, GitHub review, or Slack integrations Official" [ref=e97]:
+          - cell "OpenAI Codex" [ref=e98]:
+            - link "OpenAI Codex" [ref=e99] [cursor=pointer]:
+              - /url: https://developers.openai.com/codex/pricing
+              - img [ref=e100]
+              - text: OpenAI Codex
+          - cell "API Key" [ref=e101]
+          - cell "Usage-based" [ref=e102]
+          - cell "API billing" [ref=e103]
+          - cell "CLI, SDK, or IDE extension usage billed by tokens" [ref=e104]
+          - cell "No cloud tasks, GitHub review, or Slack integrations" [ref=e105]
+          - cell "Official" [ref=e106]:
+            - link "Official" [ref=e107] [cursor=pointer]:
+              - /url: https://developers.openai.com/codex/pricing
+        - row "OpenCode Go $10 Monthly $12 of usage per 5 hours; $30 weekly; $60 monthly $5 first month; beta; model-dependent request counts Official" [ref=e108]:
+          - cell "OpenCode" [ref=e109]:
+            - link "OpenCode" [ref=e110] [cursor=pointer]:
+              - /url: https://opencode.ai/docs/go/
+              - img [ref=e111]
+              - text: OpenCode
+          - cell "Go" [ref=e112]
+          - cell "$10" [ref=e113]
+          - cell "Monthly" [ref=e114]
+          - cell "$12 of usage per 5 hours; $30 weekly; $60 monthly" [ref=e115]
+          - cell "$5 first month; beta; model-dependent request counts" [ref=e116]
+          - cell "Official" [ref=e117]:
+            - link "Official" [ref=e118] [cursor=pointer]:
+              - /url: https://opencode.ai/docs/go/
+        - row "MiniMax Starter $10 Monthly 100 prompts per 5 hours Token Plan for MiniMax coding tools Official" [ref=e119]:
+          - cell "MiniMax" [ref=e120]:
+            - link "MiniMax" [ref=e121] [cursor=pointer]:
+              - /url: https://platform.minimax.io/docs/guides/pricing?key=68c79eb793ce7d2b318c5975
+              - img [ref=e122]
+              - text: MiniMax
+          - cell "Starter" [ref=e123]
+          - cell "$10" [ref=e124]
+          - cell "Monthly" [ref=e125]
+          - cell "100 prompts per 5 hours" [ref=e126]
+          - cell "Token Plan for MiniMax coding tools" [ref=e127]
+          - cell "Official" [ref=e128]:
+            - link "Official" [ref=e129] [cursor=pointer]:
+              - /url: https://platform.minimax.io/docs/guides/pricing?key=68c79eb793ce7d2b318c5975
+        - row "MiniMax Plus $20 Monthly 300 prompts per 5 hours Token Plan for MiniMax coding tools Official" [ref=e130]:
+          - cell "MiniMax" [ref=e131]:
+            - link "MiniMax" [ref=e132] [cursor=pointer]:
+              - /url: https://platform.minimax.io/docs/guides/pricing?key=68c79eb793ce7d2b318c5975
+              - img [ref=e133]
+              - text: MiniMax
+          - cell "Plus" [ref=e134]
+          - cell "$20" [ref=e135]
+          - cell "Monthly" [ref=e136]
+          - cell "300 prompts per 5 hours" [ref=e137]
+          - cell "Token Plan for MiniMax coding tools" [ref=e138]
+          - cell "Official" [ref=e139]:
+            - link "Official" [ref=e140] [cursor=pointer]:
+              - /url: https://platform.minimax.io/docs/guides/pricing?key=68c79eb793ce7d2b318c5975
+        - row "MiniMax Max $50 Monthly 1,000 prompts per 5 hours Token Plan for MiniMax coding tools Official" [ref=e141]:
+          - cell "MiniMax" [ref=e142]:
+            - link "MiniMax" [ref=e143] [cursor=pointer]:
+              - /url: https://platform.minimax.io/docs/guides/pricing?key=68c79eb793ce7d2b318c5975
+              - img [ref=e144]
+              - text: MiniMax
+          - cell "Max" [ref=e145]
+          - cell "$50" [ref=e146]
+          - cell "Monthly" [ref=e147]
+          - cell "1,000 prompts per 5 hours" [ref=e148]
+          - cell "Token Plan for MiniMax coding tools" [ref=e149]
+          - cell "Official" [ref=e150]:
+            - link "Official" [ref=e151] [cursor=pointer]:
+              - /url: https://platform.minimax.io/docs/guides/pricing?key=68c79eb793ce7d2b318c5975
+        - row "GLM / Z.ai Lite $10 Monthly Approx. 80 prompts per 5 hours; approx. 400 weekly Legacy/low tier; actual usage varies by model and complexity Official" [ref=e152]:
+          - cell "GLM / Z.ai" [ref=e153]:
+            - link "GLM / Z.ai" [ref=e154] [cursor=pointer]:
+              - /url: https://docs.z.ai/devpack/overview
+          - cell "Lite" [ref=e155]
+          - cell "$10" [ref=e156]
+          - cell "Monthly" [ref=e157]
+          - cell "Approx. 80 prompts per 5 hours; approx. 400 weekly" [ref=e158]
+          - cell "Legacy/low tier; actual usage varies by model and complexity" [ref=e159]
+          - cell "Official" [ref=e160]:
+            - link "Official" [ref=e161] [cursor=pointer]:
+              - /url: https://docs.z.ai/devpack/overview
+        - row "GLM / Z.ai Pro $30 Monthly Approx. 400 prompts per 5 hours; approx. 2,000 weekly GLM-5.1 and GLM-5-Turbo have higher quota multipliers Official" [ref=e162]:
+          - cell "GLM / Z.ai" [ref=e163]:
+            - link "GLM / Z.ai" [ref=e164] [cursor=pointer]:
+              - /url: https://docs.z.ai/devpack/overview
+          - cell "Pro" [ref=e165]
+          - cell "$30" [ref=e166]
+          - cell "Monthly" [ref=e167]
+          - cell "Approx. 400 prompts per 5 hours; approx. 2,000 weekly" [ref=e168]
+          - cell "GLM-5.1 and GLM-5-Turbo have higher quota multipliers" [ref=e169]
+          - cell "Official" [ref=e170]:
+            - link "Official" [ref=e171] [cursor=pointer]:
+              - /url: https://docs.z.ai/devpack/overview
+        - row "GLM / Z.ai Max $80 Monthly Approx. 1,600 prompts per 5 hours; approx. 8,000 weekly Off-peak 1x benefit for GLM-5.1/Turbo through June 2026 Official" [ref=e172]:
+          - cell "GLM / Z.ai" [ref=e173]:
+            - link "GLM / Z.ai" [ref=e174] [cursor=pointer]:
+              - /url: https://docs.z.ai/devpack/overview
+          - cell "Max" [ref=e175]
+          - cell "$80" [ref=e176]
+          - cell "Monthly" [ref=e177]
+          - cell "Approx. 1,600 prompts per 5 hours; approx. 8,000 weekly" [ref=e178]
+          - cell "Off-peak 1x benefit for GLM-5.1/Turbo through June 2026" [ref=e179]
+          - cell "Official" [ref=e180]:
+            - link "Official" [ref=e181] [cursor=pointer]:
+              - /url: https://docs.z.ai/devpack/overview
+        - row "Qwen Coding Plan Lite (legacy) $10 Monthly 1,200 requests per 5 hours; 9,000 weekly; 18,000 monthly No longer accepts new subscriptions as of March 20, 2026 Official" [ref=e182]:
+          - cell "Qwen Coding Plan" [ref=e183]:
+            - link "Qwen Coding Plan" [ref=e184] [cursor=pointer]:
+              - /url: https://www.alibabacloud.com/help/en/model-studio/coding-plan
+              - img [ref=e185]
+              - text: Qwen Coding Plan
+          - cell "Lite (legacy)" [ref=e186]
+          - cell "$10" [ref=e187]
+          - cell "Monthly" [ref=e188]
+          - cell "1,200 requests per 5 hours; 9,000 weekly; 18,000 monthly" [ref=e189]
+          - cell "No longer accepts new subscriptions as of March 20, 2026" [ref=e190]
+          - cell "Official" [ref=e191]:
+            - link "Official" [ref=e192] [cursor=pointer]:
+              - /url: https://www.alibabacloud.com/help/en/model-studio/coding-plan
+        - row "Qwen Coding Plan Pro $50 Monthly 6,000 requests per 5 hours; 45,000 weekly; 90,000 monthly Personal-use coding tools only Official" [ref=e193]:
+          - cell "Qwen Coding Plan" [ref=e194]:
+            - link "Qwen Coding Plan" [ref=e195] [cursor=pointer]:
+              - /url: https://www.alibabacloud.com/help/en/model-studio/coding-plan
+              - img [ref=e196]
+              - text: Qwen Coding Plan
+          - cell "Pro" [ref=e197]
+          - cell "$50" [ref=e198]
+          - cell "Monthly" [ref=e199]
+          - cell "6,000 requests per 5 hours; 45,000 weekly; 90,000 monthly" [ref=e200]
+          - cell "Personal-use coding tools only" [ref=e201]
+          - cell "Official" [ref=e202]:
+            - link "Official" [ref=e203] [cursor=pointer]:
+              - /url: https://www.alibabacloud.com/help/en/model-studio/coding-plan
+        - row "Moonshot Kimi Code Moderato $19 Monthly Kimi Code quota 1x; agent quota approx. 60 tasks Unified credit pool Official" [ref=e204]:
+          - cell "Moonshot Kimi Code" [ref=e205]:
+            - link "Moonshot Kimi Code" [ref=e206] [cursor=pointer]:
+              - /url: https://www.kimi.com/help/membership/membership-overview
+              - img [ref=e207]
+              - text: Moonshot Kimi Code
+          - cell "Moderato" [ref=e208]
+          - cell "$19" [ref=e209]
+          - cell "Monthly" [ref=e210]
+          - cell "Kimi Code quota 1x; agent quota approx. 60 tasks" [ref=e211]
+          - cell "Unified credit pool" [ref=e212]
+          - cell "Official" [ref=e213]:
+            - link "Official" [ref=e214] [cursor=pointer]:
+              - /url: https://www.kimi.com/help/membership/membership-overview
+        - row "Moonshot Kimi Code Allegretto $39 Monthly Kimi Code quota 5x; agent quota approx. 150 tasks Unified credit pool Official" [ref=e215]:
+          - cell "Moonshot Kimi Code" [ref=e216]:
+            - link "Moonshot Kimi Code" [ref=e217] [cursor=pointer]:
+              - /url: https://www.kimi.com/help/membership/membership-overview
+              - img [ref=e218]
+              - text: Moonshot Kimi Code
+          - cell "Allegretto" [ref=e219]
+          - cell "$39" [ref=e220]
+          - cell "Monthly" [ref=e221]
+          - cell "Kimi Code quota 5x; agent quota approx. 150 tasks" [ref=e222]
+          - cell "Unified credit pool" [ref=e223]
+          - cell "Official" [ref=e224]:
+            - link "Official" [ref=e225] [cursor=pointer]:
+              - /url: https://www.kimi.com/help/membership/membership-overview
+        - row "Moonshot Kimi Code Allegro $99 Monthly Kimi Code quota 15x; agent quota approx. 360 tasks Unified credit pool Official" [ref=e226]:
+          - cell "Moonshot Kimi Code" [ref=e227]:
+            - link "Moonshot Kimi Code" [ref=e228] [cursor=pointer]:
+              - /url: https://www.kimi.com/help/membership/membership-overview
+              - img [ref=e229]
+              - text: Moonshot Kimi Code
+          - cell "Allegro" [ref=e230]
+          - cell "$99" [ref=e231]
+          - cell "Monthly" [ref=e232]
+          - cell "Kimi Code quota 15x; agent quota approx. 360 tasks" [ref=e233]
+          - cell "Unified credit pool" [ref=e234]
+          - cell "Official" [ref=e235]:
+            - link "Official" [ref=e236] [cursor=pointer]:
+              - /url: https://www.kimi.com/help/membership/membership-overview
+        - row "Moonshot Kimi Code Vivace $199 Monthly Kimi Code quota 30x; agent quota approx. 720 tasks Unified credit pool Official" [ref=e237]:
+          - cell "Moonshot Kimi Code" [ref=e238]:
+            - link "Moonshot Kimi Code" [ref=e239] [cursor=pointer]:
+              - /url: https://www.kimi.com/help/membership/membership-overview
+              - img [ref=e240]
+              - text: Moonshot Kimi Code
+          - cell "Vivace" [ref=e241]
+          - cell "$199" [ref=e242]
+          - cell "Monthly" [ref=e243]
+          - cell "Kimi Code quota 30x; agent quota approx. 720 tasks" [ref=e244]
+          - cell "Unified credit pool" [ref=e245]
+          - cell "Official" [ref=e246]:
+            - link "Official" [ref=e247] [cursor=pointer]:
+              - /url: https://www.kimi.com/help/membership/membership-overview
+        - row "GitHub Copilot Free $0 Monthly 50 premium requests per month; 50 agent-mode uses with GPT-5 mini Inline suggestions included Official" [ref=e248]:
+          - cell "GitHub Copilot" [ref=e249]:
+            - link "GitHub Copilot" [ref=e250] [cursor=pointer]:
+              - /url: https://github.com/features/copilot/plans
+              - img [ref=e251]
+              - text: GitHub Copilot
+          - cell "Free" [ref=e252]
+          - cell "$0" [ref=e253]
+          - cell "Monthly" [ref=e254]
+          - cell "50 premium requests per month; 50 agent-mode uses with GPT-5 mini" [ref=e255]
+          - cell "Inline suggestions included" [ref=e256]
+          - cell "Official" [ref=e257]:
+            - link "Official" [ref=e258] [cursor=pointer]:
+              - /url: https://github.com/features/copilot/plans
+        - row "GitHub Copilot Pro $10 Monthly 300 premium requests per month; unlimited agent mode and chats with GPT-5 mini Additional premium requests $0.04/request Official" [ref=e259]:
+          - cell "GitHub Copilot" [ref=e260]:
+            - link "GitHub Copilot" [ref=e261] [cursor=pointer]:
+              - /url: https://github.com/features/copilot/plans
+              - img [ref=e262]
+              - text: GitHub Copilot
+          - cell "Pro" [ref=e263]
+          - cell "$10" [ref=e264]
+          - cell "Monthly" [ref=e265]
+          - cell "300 premium requests per month; unlimited agent mode and chats with GPT-5 mini" [ref=e266]
+          - cell "Additional premium requests $0.04/request" [ref=e267]
+          - cell "Official" [ref=e268]:
+            - link "Official" [ref=e269] [cursor=pointer]:
+              - /url: https://github.com/features/copilot/plans
+        - row "GitHub Copilot Pro+ $39 Monthly 1,500 premium requests per month; all models including Claude Opus 4.7 Includes GitHub Spark Official" [ref=e270]:
+          - cell "GitHub Copilot" [ref=e271]:
+            - link "GitHub Copilot" [ref=e272] [cursor=pointer]:
+              - /url: https://github.com/features/copilot/plans
+              - img [ref=e273]
+              - text: GitHub Copilot
+          - cell "Pro+" [ref=e274]
+          - cell "$39" [ref=e275]
+          - cell "Monthly" [ref=e276]
+          - cell "1,500 premium requests per month; all models including Claude Opus 4.7" [ref=e277]
+          - cell "Includes GitHub Spark" [ref=e278]
+          - cell "Official" [ref=e279]:
+            - link "Official" [ref=e280] [cursor=pointer]:
+              - /url: https://github.com/features/copilot/plans
+        - row "GitHub Copilot Business $19 Per user / monthly 300 premium requests per user per month Org policy and management features Official" [ref=e281]:
+          - cell "GitHub Copilot" [ref=e282]:
+            - link "GitHub Copilot" [ref=e283] [cursor=pointer]:
+              - /url: https://github.com/features/copilot/plans
+              - img [ref=e284]
+              - text: GitHub Copilot
+          - cell "Business" [ref=e285]
+          - cell "$19" [ref=e286]
+          - cell "Per user / monthly" [ref=e287]
+          - cell "300 premium requests per user per month" [ref=e288]
+          - cell "Org policy and management features" [ref=e289]
+          - cell "Official" [ref=e290]:
+            - link "Official" [ref=e291] [cursor=pointer]:
+              - /url: https://github.com/features/copilot/plans
+        - row "GitHub Copilot Enterprise $39 Per user / monthly 1,000 premium requests per user per month Enterprise governance and GitHub-native features Official" [ref=e292]:
+          - cell "GitHub Copilot" [ref=e293]:
+            - link "GitHub Copilot" [ref=e294] [cursor=pointer]:
+              - /url: https://github.com/features/copilot/plans
+              - img [ref=e295]
+              - text: GitHub Copilot
+          - cell "Enterprise" [ref=e296]
+          - cell "$39" [ref=e297]
+          - cell "Per user / monthly" [ref=e298]
+          - cell "1,000 premium requests per user per month" [ref=e299]
+          - cell "Enterprise governance and GitHub-native features" [ref=e300]
+          - cell "Official" [ref=e301]:
+            - link "Official" [ref=e302] [cursor=pointer]:
+              - /url: https://github.com/features/copilot/plans
+        - row "Cursor AI Hobby $0 Monthly Limited Agent requests and limited Tab completions No credit card required Official" [ref=e303]:
+          - cell "Cursor AI" [ref=e304]:
+            - link "Cursor AI" [ref=e305] [cursor=pointer]:
+              - /url: https://cursor.com/pricing
+              - img [ref=e306]
+              - text: Cursor AI
+          - cell "Hobby" [ref=e307]
+          - cell "$0" [ref=e308]
+          - cell "Monthly" [ref=e309]
+          - cell "Limited Agent requests and limited Tab completions" [ref=e310]
+          - cell "No credit card required" [ref=e311]
+          - cell "Official" [ref=e312]:
+            - link "Official" [ref=e313] [cursor=pointer]:
+              - /url: https://cursor.com/pricing
+        - row "Cursor AI Pro $20 Monthly $20 API usage included; unlimited Tab completions; extended agent usage Bugbot on usage-based billing Official" [ref=e314]:
+          - cell "Cursor AI" [ref=e315]:
+            - link "Cursor AI" [ref=e316] [cursor=pointer]:
+              - /url: https://cursor.com/pricing
+              - img [ref=e317]
+              - text: Cursor AI
+          - cell "Pro" [ref=e318]
+          - cell "$20" [ref=e319]
+          - cell "Monthly" [ref=e320]
+          - cell "$20 API usage included; unlimited Tab completions; extended agent usage" [ref=e321]
+          - cell "Bugbot on usage-based billing" [ref=e322]
+          - cell "Official" [ref=e323]:
+            - link "Official" [ref=e324] [cursor=pointer]:
+              - /url: https://cursor.com/pricing
+        - row "Cursor AI Pro+ $60 Monthly 3x usage on OpenAI, Claude, and Gemini models Recommended for daily agent users Official" [ref=e325]:
+          - cell "Cursor AI" [ref=e326]:
+            - link "Cursor AI" [ref=e327] [cursor=pointer]:
+              - /url: https://cursor.com/pricing
+              - img [ref=e328]
+              - text: Cursor AI
+          - cell "Pro+" [ref=e329]
+          - cell "$60" [ref=e330]
+          - cell "Monthly" [ref=e331]
+          - cell "3x usage on OpenAI, Claude, and Gemini models" [ref=e332]
+          - cell "Recommended for daily agent users" [ref=e333]
+          - cell "Official" [ref=e334]:
+            - link "Official" [ref=e335] [cursor=pointer]:
+              - /url: https://cursor.com/pricing
+        - row "Cursor AI Ultra $200 Monthly 20x usage on OpenAI, Claude, and Gemini models Priority access to new features Official" [ref=e336]:
+          - cell "Cursor AI" [ref=e337]:
+            - link "Cursor AI" [ref=e338] [cursor=pointer]:
+              - /url: https://cursor.com/pricing
+              - img [ref=e339]
+              - text: Cursor AI
+          - cell "Ultra" [ref=e340]
+          - cell "$200" [ref=e341]
+          - cell "Monthly" [ref=e342]
+          - cell "20x usage on OpenAI, Claude, and Gemini models" [ref=e343]
+          - cell "Priority access to new features" [ref=e344]
+          - cell "Official" [ref=e345]:
+            - link "Official" [ref=e346] [cursor=pointer]:
+              - /url: https://cursor.com/pricing
+        - row "Cursor AI Teams $40 Per user / monthly Centralized billing, pooled usage, analytics, SAML/OIDC SSO For professional teams Official" [ref=e347]:
+          - cell "Cursor AI" [ref=e348]:
+            - link "Cursor AI" [ref=e349] [cursor=pointer]:
+              - /url: https://cursor.com/pricing
+              - img [ref=e350]
+              - text: Cursor AI
+          - cell "Teams" [ref=e351]
+          - cell "$40" [ref=e352]
+          - cell "Per user / monthly" [ref=e353]
+          - cell "Centralized billing, pooled usage, analytics, SAML/OIDC SSO" [ref=e354]
+          - cell "For professional teams" [ref=e355]
+          - cell "Official" [ref=e356]:
+            - link "Official" [ref=e357] [cursor=pointer]:
+              - /url: https://cursor.com/pricing
+        - row "Windsurf Free $0 Monthly Light Cascade allowance; unlimited Tab Usage allowance refreshes daily and weekly Official" [ref=e358]:
+          - cell "Windsurf" [ref=e359]:
+            - link "Windsurf" [ref=e360] [cursor=pointer]:
+              - /url: https://windsurf.com/pricing
+              - img [ref=e361]
+              - text: Windsurf
+          - cell "Free" [ref=e362]
+          - cell "$0" [ref=e363]
+          - cell "Monthly" [ref=e364]
+          - cell "Light Cascade allowance; unlimited Tab" [ref=e365]
+          - cell "Usage allowance refreshes daily and weekly" [ref=e366]
+          - cell "Official" [ref=e367]:
+            - link "Official" [ref=e368] [cursor=pointer]:
+              - /url: https://windsurf.com/pricing
+        - row "Windsurf Pro $20 Monthly Standard Cascade allowance; extra usage at API price; unlimited Tab Individual plan Official" [ref=e369]:
+          - cell "Windsurf" [ref=e370]:
+            - link "Windsurf" [ref=e371] [cursor=pointer]:
+              - /url: https://windsurf.com/pricing
+              - img [ref=e372]
+              - text: Windsurf
+          - cell "Pro" [ref=e373]
+          - cell "$20" [ref=e374]
+          - cell "Monthly" [ref=e375]
+          - cell "Standard Cascade allowance; extra usage at API price; unlimited Tab" [ref=e376]
+          - cell "Individual plan" [ref=e377]
+          - cell "Official" [ref=e378]:
+            - link "Official" [ref=e379] [cursor=pointer]:
+              - /url: https://windsurf.com/pricing
+        - row "Windsurf Max $200 Monthly Heavy Cascade allowance; extra usage at API price; unlimited Tab Includes cloud agents / Devin Cloud access Official" [ref=e380]:
+          - cell "Windsurf" [ref=e381]:
+            - link "Windsurf" [ref=e382] [cursor=pointer]:
+              - /url: https://windsurf.com/pricing
+              - img [ref=e383]
+              - text: Windsurf
+          - cell "Max" [ref=e384]
+          - cell "$200" [ref=e385]
+          - cell "Monthly" [ref=e386]
+          - cell "Heavy Cascade allowance; extra usage at API price; unlimited Tab" [ref=e387]
+          - cell "Includes cloud agents / Devin Cloud access" [ref=e388]
+          - cell "Official" [ref=e389]:
+            - link "Official" [ref=e390] [cursor=pointer]:
+              - /url: https://windsurf.com/pricing
+        - row "Windsurf Teams $40 Per user / monthly Standard usage allowance per user; centralized billing and admin analytics Team plan Official" [ref=e391]:
+          - cell "Windsurf" [ref=e392]:
+            - link "Windsurf" [ref=e393] [cursor=pointer]:
+              - /url: https://windsurf.com/pricing
+              - img [ref=e394]
+              - text: Windsurf
+          - cell "Teams" [ref=e395]
+          - cell "$40" [ref=e396]
+          - cell "Per user / monthly" [ref=e397]
+          - cell "Standard usage allowance per user; centralized billing and admin analytics" [ref=e398]
+          - cell "Team plan" [ref=e399]
+          - cell "Official" [ref=e400]:
+            - link "Official" [ref=e401] [cursor=pointer]:
+              - /url: https://windsurf.com/pricing
+        - row "Windsurf Enterprise Custom Custom Custom usage, SSO/access controls, RBAC, priority support Contact sales Official" [ref=e402]:
+          - cell "Windsurf" [ref=e403]:
+            - link "Windsurf" [ref=e404] [cursor=pointer]:
+              - /url: https://windsurf.com/pricing
+              - img [ref=e405]
+              - text: Windsurf
+          - cell "Enterprise" [ref=e406]
+          - cell "Custom" [ref=e407]
+          - cell "Custom" [ref=e408]
+          - cell "Custom usage, SSO/access controls, RBAC, priority support" [ref=e409]
+          - cell "Contact sales" [ref=e410]
+          - cell "Official" [ref=e411]:
+            - link "Official" [ref=e412] [cursor=pointer]:
+              - /url: https://windsurf.com/pricing
+        - row "Zencoder Free $0 Monthly 30 daily Premium LLM calls; unlimited BYOK calls Autocomplete does not count against limits Official" [ref=e413]:
+          - cell "Zencoder" [ref=e414]:
+            - link "Zencoder" [ref=e415] [cursor=pointer]:
+              - /url: https://zencoder.ai/pricing
+              - img [ref=e416]
+              - text: Zencoder
+          - cell "Free" [ref=e417]
+          - cell "$0" [ref=e418]
+          - cell "Monthly" [ref=e419]
+          - cell "30 daily Premium LLM calls; unlimited BYOK calls" [ref=e420]
+          - cell "Autocomplete does not count against limits" [ref=e421]
+          - cell "Official" [ref=e422]:
+            - link "Official" [ref=e423] [cursor=pointer]:
+              - /url: https://zencoder.ai/pricing
+        - row "Zencoder Starter $19 Per user / monthly 280 Premium LLM calls/day 7-day trial with 700 calls Official" [ref=e424]:
+          - cell "Zencoder" [ref=e425]:
+            - link "Zencoder" [ref=e426] [cursor=pointer]:
+              - /url: https://zencoder.ai/pricing
+              - img [ref=e427]
+              - text: Zencoder
+          - cell "Starter" [ref=e428]
+          - cell "$19" [ref=e429]
+          - cell "Per user / monthly" [ref=e430]
+          - cell "280 Premium LLM calls/day" [ref=e431]
+          - cell "7-day trial with 700 calls" [ref=e432]
+          - cell "Official" [ref=e433]:
+            - link "Official" [ref=e434] [cursor=pointer]:
+              - /url: https://zencoder.ai/pricing
+        - row "Zencoder Core $49 Per user / monthly 750 Premium LLM calls/day Includes Claude Opus 4.7 and multi-repository indexing Official" [ref=e435]:
+          - cell "Zencoder" [ref=e436]:
+            - link "Zencoder" [ref=e437] [cursor=pointer]:
+              - /url: https://zencoder.ai/pricing
+              - img [ref=e438]
+              - text: Zencoder
+          - cell "Core" [ref=e439]
+          - cell "$49" [ref=e440]
+          - cell "Per user / monthly" [ref=e441]
+          - cell "750 Premium LLM calls/day" [ref=e442]
+          - cell "Includes Claude Opus 4.7 and multi-repository indexing" [ref=e443]
+          - cell "Official" [ref=e444]:
+            - link "Official" [ref=e445] [cursor=pointer]:
+              - /url: https://zencoder.ai/pricing
+        - row "Zencoder Advanced $119 Per user / monthly 1,900 Premium LLM calls/day Performance plan Official" [ref=e446]:
+          - cell "Zencoder" [ref=e447]:
+            - link "Zencoder" [ref=e448] [cursor=pointer]:
+              - /url: https://zencoder.ai/pricing
+              - img [ref=e449]
+              - text: Zencoder
+          - cell "Advanced" [ref=e450]
+          - cell "$119" [ref=e451]
+          - cell "Per user / monthly" [ref=e452]
+          - cell "1,900 Premium LLM calls/day" [ref=e453]
+          - cell "Performance plan" [ref=e454]
+          - cell "Official" [ref=e455]:
+            - link "Official" [ref=e456] [cursor=pointer]:
+              - /url: https://zencoder.ai/pricing
+        - row "Zencoder Max $250 Per user / monthly 4,200 Premium LLM calls/day Early access to new features Official" [ref=e457]:
+          - cell "Zencoder" [ref=e458]:
+            - link "Zencoder" [ref=e459] [cursor=pointer]:
+              - /url: https://zencoder.ai/pricing
+              - img [ref=e460]
+              - text: Zencoder
+          - cell "Max" [ref=e461]
+          - cell "$250" [ref=e462]
+          - cell "Per user / monthly" [ref=e463]
+          - cell "4,200 Premium LLM calls/day" [ref=e464]
+          - cell "Early access to new features" [ref=e465]
+          - cell "Official" [ref=e466]:
+            - link "Official" [ref=e467] [cursor=pointer]:
+              - /url: https://zencoder.ai/pricing
+        - row "Replit Agent Starter $0 Monthly Free daily Agent credits and free AI integration credits Publish 1 app Official" [ref=e468]:
+          - cell "Replit Agent" [ref=e469]:
+            - link "Replit Agent" [ref=e470] [cursor=pointer]:
+              - /url: https://replit.com/pricing
+              - img [ref=e471]
+              - text: Replit Agent
+          - cell "Starter" [ref=e472]
+          - cell "$0" [ref=e473]
+          - cell "Monthly" [ref=e474]
+          - cell "Free daily Agent credits and free AI integration credits" [ref=e475]
+          - cell "Publish 1 app" [ref=e476]
+          - cell "Official" [ref=e477]:
+            - link "Official" [ref=e478] [cursor=pointer]:
+              - /url: https://replit.com/pricing
+        - row "Replit Agent Core $20 Monthly (billed annually) $25 of monthly credits; up to 5 collaborators Listed as $25 monthly / $20 annually Official" [ref=e479]:
+          - cell "Replit Agent" [ref=e480]:
+            - link "Replit Agent" [ref=e481] [cursor=pointer]:
+              - /url: https://replit.com/pricing
+              - img [ref=e482]
+              - text: Replit Agent
+          - cell "Core" [ref=e483]
+          - cell "$20" [ref=e484]
+          - cell "Monthly (billed annually)" [ref=e485]
+          - cell "$25 of monthly credits; up to 5 collaborators" [ref=e486]
+          - cell "Listed as $25 monthly / $20 annually" [ref=e487]
+          - cell "Official" [ref=e488]:
+            - link "Official" [ref=e489] [cursor=pointer]:
+              - /url: https://replit.com/pricing
+        - row "Replit Agent Pro $95 Monthly (billed annually) $100 monthly credits; most powerful models; up to 15 collaborators Listed as $100 monthly / $95 annually Official" [ref=e490]:
+          - cell "Replit Agent" [ref=e491]:
+            - link "Replit Agent" [ref=e492] [cursor=pointer]:
+              - /url: https://replit.com/pricing
+              - img [ref=e493]
+              - text: Replit Agent
+          - cell "Pro" [ref=e494]
+          - cell "$95" [ref=e495]
+          - cell "Monthly (billed annually)" [ref=e496]
+          - cell "$100 monthly credits; most powerful models; up to 15 collaborators" [ref=e497]
+          - cell "Listed as $100 monthly / $95 annually" [ref=e498]
+          - cell "Official" [ref=e499]:
+            - link "Official" [ref=e500] [cursor=pointer]:
+              - /url: https://replit.com/pricing
+        - row "Devin AI Free $0 Monthly Limited Devin usage; Devin Review; DeepWiki Individual plan Official" [ref=e501]:
+          - cell "Devin AI" [ref=e502]:
+            - link "Devin AI" [ref=e503] [cursor=pointer]:
+              - /url: https://devin.ai/pricing
+              - img [ref=e504]
+              - text: Devin AI
+          - cell "Free" [ref=e505]
+          - cell "$0" [ref=e506]
+          - cell "Monthly" [ref=e507]
+          - cell "Limited Devin usage; Devin Review; DeepWiki" [ref=e508]
+          - cell "Individual plan" [ref=e509]
+          - cell "Official" [ref=e510]:
+            - link "Official" [ref=e511] [cursor=pointer]:
+              - /url: https://devin.ai/pricing
+        - row "Devin AI Pro $20 Monthly Included Devin and Windsurf IDE usage quota; pay-as-you-go beyond quota Up to 10 concurrent sessions Official" [ref=e512]:
+          - cell "Devin AI" [ref=e513]:
+            - link "Devin AI" [ref=e514] [cursor=pointer]:
+              - /url: https://devin.ai/pricing
+              - img [ref=e515]
+              - text: Devin AI
+          - cell "Pro" [ref=e516]
+          - cell "$20" [ref=e517]
+          - cell "Monthly" [ref=e518]
+          - cell "Included Devin and Windsurf IDE usage quota; pay-as-you-go beyond quota" [ref=e519]
+          - cell "Up to 10 concurrent sessions" [ref=e520]
+          - cell "Official" [ref=e521]:
+            - link "Official" [ref=e522] [cursor=pointer]:
+              - /url: https://devin.ai/pricing
+        - row "Devin AI Max $200 Monthly Larger Devin and Windsurf IDE usage quota; pay-as-you-go beyond quota Up to 10 concurrent sessions Official" [ref=e523]:
+          - cell "Devin AI" [ref=e524]:
+            - link "Devin AI" [ref=e525] [cursor=pointer]:
+              - /url: https://devin.ai/pricing
+              - img [ref=e526]
+              - text: Devin AI
+          - cell "Max" [ref=e527]
+          - cell "$200" [ref=e528]
+          - cell "Monthly" [ref=e529]
+          - cell "Larger Devin and Windsurf IDE usage quota; pay-as-you-go beyond quota" [ref=e530]
+          - cell "Up to 10 concurrent sessions" [ref=e531]
+          - cell "Official" [ref=e532]:
+            - link "Official" [ref=e533] [cursor=pointer]:
+              - /url: https://devin.ai/pricing
+        - row "Devin AI Teams $80 Monthly Included team quota; unlimited team members; sharing and centralized billing Unlimited concurrent sessions Official" [ref=e534]:
+          - cell "Devin AI" [ref=e535]:
+            - link "Devin AI" [ref=e536] [cursor=pointer]:
+              - /url: https://devin.ai/pricing
+              - img [ref=e537]
+              - text: Devin AI
+          - cell "Teams" [ref=e538]
+          - cell "$80" [ref=e539]
+          - cell "Monthly" [ref=e540]
+          - cell "Included team quota; unlimited team members; sharing and centralized billing" [ref=e541]
+          - cell "Unlimited concurrent sessions" [ref=e542]
+          - cell "Official" [ref=e543]:
+            - link "Official" [ref=e544] [cursor=pointer]:
+              - /url: https://devin.ai/pricing
+        - row "Devin AI Enterprise Custom Custom Enterprise Devin, custom usage, SAML/OIDC SSO, dedicated account team Contact sales Official" [ref=e545]:
+          - cell "Devin AI" [ref=e546]:
+            - link "Devin AI" [ref=e547] [cursor=pointer]:
+              - /url: https://devin.ai/pricing
+              - img [ref=e548]
+              - text: Devin AI
+          - cell "Enterprise" [ref=e549]
+          - cell "Custom" [ref=e550]
+          - cell "Custom" [ref=e551]
+          - cell "Enterprise Devin, custom usage, SAML/OIDC SSO, dedicated account team" [ref=e552]
+          - cell "Contact sales" [ref=e553]
+          - cell "Official" [ref=e554]:
+            - link "Official" [ref=e555] [cursor=pointer]:
+              - /url: https://devin.ai/pricing
+        - row "CodeGPT Free $0 Monthly BYOK access to 15+ providers; unlimited interactions with your own keys Can buy token credits directly Official" [ref=e556]:
+          - cell "CodeGPT" [ref=e557]:
+            - link "CodeGPT" [ref=e558] [cursor=pointer]:
+              - /url: https://www.codegpt.co/pricing
+              - img [ref=e559]
+              - text: CodeGPT
+          - cell "Free" [ref=e560]
+          - cell "$0" [ref=e561]
+          - cell "Monthly" [ref=e562]
+          - cell "BYOK access to 15+ providers; unlimited interactions with your own keys" [ref=e563]
+          - cell "Can buy token credits directly" [ref=e564]
+          - cell "Official" [ref=e565]:
+            - link "Official" [ref=e566] [cursor=pointer]:
+              - /url: https://www.codegpt.co/pricing
+        - row "CodeGPT AutoComplete Add-on $8 Per seat / monthly Unlimited autocomplete plus agentic mode with planning $6.67/month when billed annually Official" [ref=e567]:
+          - cell "CodeGPT" [ref=e568]:
+            - link "CodeGPT" [ref=e569] [cursor=pointer]:
+              - /url: https://www.codegpt.co/pricing
+              - img [ref=e570]
+              - text: CodeGPT
+          - cell "AutoComplete Add-on" [ref=e571]
+          - cell "$8" [ref=e572]
+          - cell "Per seat / monthly" [ref=e573]
+          - cell "Unlimited autocomplete plus agentic mode with planning" [ref=e574]
+          - cell "$6.67/month when billed annually" [ref=e575]
+          - cell "Official" [ref=e576]:
+            - link "Official" [ref=e577] [cursor=pointer]:
+              - /url: https://www.codegpt.co/pricing
+        - row "CodeGPT AI-First Services Custom Custom Custom AI agents, SSO, enterprise security, self-hosted or cloud deployment Service plan Official" [ref=e578]:
+          - cell "CodeGPT" [ref=e579]:
+            - link "CodeGPT" [ref=e580] [cursor=pointer]:
+              - /url: https://www.codegpt.co/pricing
+              - img [ref=e581]
+              - text: CodeGPT
+          - cell "AI-First Services" [ref=e582]
+          - cell "Custom" [ref=e583]
+          - cell "Custom" [ref=e584]
+          - cell "Custom AI agents, SSO, enterprise security, self-hosted or cloud deployment" [ref=e585]
+          - cell "Service plan" [ref=e586]
+          - cell "Official" [ref=e587]:
+            - link "Official" [ref=e588] [cursor=pointer]:
+              - /url: https://www.codegpt.co/pricing
+        - row "Tembo Free $0 Weekly reset 10 credits/week; 1 repository; all integrations Top up credits anytime Official" [ref=e589]:
+          - cell "Tembo" [ref=e590]:
+            - link "Tembo" [ref=e591] [cursor=pointer]:
+              - /url: https://www.tembo.io/pricing
+              - img [ref=e592]
+              - text: Tembo
+          - cell "Free" [ref=e593]
+          - cell "$0" [ref=e594]
+          - cell "Weekly reset" [ref=e595]
+          - cell "10 credits/week; 1 repository; all integrations" [ref=e596]
+          - cell "Top up credits anytime" [ref=e597]
+          - cell "Official" [ref=e598]:
+            - link "Official" [ref=e599] [cursor=pointer]:
+              - /url: https://www.tembo.io/pricing
+        - row "Tembo Pro $60 Monthly 100 credits/month; up to 10 users; unlimited repositories Overage billing Official" [ref=e600]:
+          - cell "Tembo" [ref=e601]:
+            - link "Tembo" [ref=e602] [cursor=pointer]:
+              - /url: https://www.tembo.io/pricing
+              - img [ref=e603]
+              - text: Tembo
+          - cell "Pro" [ref=e604]
+          - cell "$60" [ref=e605]
+          - cell "Monthly" [ref=e606]
+          - cell "100 credits/month; up to 10 users; unlimited repositories" [ref=e607]
+          - cell "Overage billing" [ref=e608]
+          - cell "Official" [ref=e609]:
+            - link "Official" [ref=e610] [cursor=pointer]:
+              - /url: https://www.tembo.io/pricing
+        - row "Tembo Max $200 Monthly 400 credits/month; up to 10 users; priority support Overage billing Official" [ref=e611]:
+          - cell "Tembo" [ref=e612]:
+            - link "Tembo" [ref=e613] [cursor=pointer]:
+              - /url: https://www.tembo.io/pricing
+              - img [ref=e614]
+              - text: Tembo
+          - cell "Max" [ref=e615]
+          - cell "$200" [ref=e616]
+          - cell "Monthly" [ref=e617]
+          - cell "400 credits/month; up to 10 users; priority support" [ref=e618]
+          - cell "Overage billing" [ref=e619]
+          - cell "Official" [ref=e620]:
+            - link "Official" [ref=e621] [cursor=pointer]:
+              - /url: https://www.tembo.io/pricing
+        - row "Tembo Enterprise Custom Custom Custom credit limits, SLA, SSO, BYOK included Contact sales Official" [ref=e622]:
+          - cell "Tembo" [ref=e623]:
+            - link "Tembo" [ref=e624] [cursor=pointer]:
+              - /url: https://www.tembo.io/pricing
+              - img [ref=e625]
+              - text: Tembo
+          - cell "Enterprise" [ref=e626]
+          - cell "Custom" [ref=e627]
+          - cell "Custom" [ref=e628]
+          - cell "Custom credit limits, SLA, SSO, BYOK included" [ref=e629]
+          - cell "Contact sales" [ref=e630]
+          - cell "Official" [ref=e631]:
+            - link "Official" [ref=e632] [cursor=pointer]:
+              - /url: https://www.tembo.io/pricing
+        - row "Amazon Q Developer Free Tier $0 Monthly 50 agentic requests per month; 1,000 Java upgrade LOC/month Perpetual free tier Official" [ref=e633]:
+          - cell "Amazon Q Developer" [ref=e634]:
+            - link "Amazon Q Developer" [ref=e635] [cursor=pointer]:
+              - /url: https://aws.amazon.com/q/developer/pricing/
+              - img [ref=e636]
+              - text: Amazon Q Developer
+          - cell "Free Tier" [ref=e637]
+          - cell "$0" [ref=e638]
+          - cell "Monthly" [ref=e639]
+          - cell "50 agentic requests per month; 1,000 Java upgrade LOC/month" [ref=e640]
+          - cell "Perpetual free tier" [ref=e641]
+          - cell "Official" [ref=e642]:
+            - link "Official" [ref=e643] [cursor=pointer]:
+              - /url: https://aws.amazon.com/q/developer/pricing/
+        - row "Amazon Q Developer Pro $19 Per user / monthly Expanded agentic request limits; 4,000 Java upgrade LOC/month per user pooled at account level IP indemnity and admin controls Official" [ref=e644]:
+          - cell "Amazon Q Developer" [ref=e645]:
+            - link "Amazon Q Developer" [ref=e646] [cursor=pointer]:
+              - /url: https://aws.amazon.com/q/developer/pricing/
+              - img [ref=e647]
+              - text: Amazon Q Developer
+          - cell "Pro" [ref=e648]
+          - cell "$19" [ref=e649]
+          - cell "Per user / monthly" [ref=e650]
+          - cell "Expanded agentic request limits; 4,000 Java upgrade LOC/month per user pooled at account level" [ref=e651]
+          - cell "IP indemnity and admin controls" [ref=e652]
+          - cell "Official" [ref=e653]:
+            - link "Official" [ref=e654] [cursor=pointer]:
+              - /url: https://aws.amazon.com/q/developer/pricing/
+        - row "Augment Code Indie $20 Monthly 40,000 credits; up to 1 user Auto top-up $15/24k credits Official" [ref=e655]:
+          - cell "Augment Code" [ref=e656]:
+            - link "Augment Code" [ref=e657] [cursor=pointer]:
+              - /url: https://www.augmentcode.com/pricing
+              - img [ref=e658]
+              - text: Augment Code
+          - cell "Indie" [ref=e659]
+          - cell "$20" [ref=e660]
+          - cell "Monthly" [ref=e661]
+          - cell "40,000 credits; up to 1 user" [ref=e662]
+          - cell "Auto top-up $15/24k credits" [ref=e663]
+          - cell "Official" [ref=e664]:
+            - link "Official" [ref=e665] [cursor=pointer]:
+              - /url: https://www.augmentcode.com/pricing
+        - row "Augment Code Standard $60 Per developer / monthly 130,000 credits; up to 20 users Credits pooled at team level Official" [ref=e666]:
+          - cell "Augment Code" [ref=e667]:
+            - link "Augment Code" [ref=e668] [cursor=pointer]:
+              - /url: https://www.augmentcode.com/pricing
+              - img [ref=e669]
+              - text: Augment Code
+          - cell "Standard" [ref=e670]
+          - cell "$60" [ref=e671]
+          - cell "Per developer / monthly" [ref=e672]
+          - cell "130,000 credits; up to 20 users" [ref=e673]
+          - cell "Credits pooled at team level" [ref=e674]
+          - cell "Official" [ref=e675]:
+            - link "Official" [ref=e676] [cursor=pointer]:
+              - /url: https://www.augmentcode.com/pricing
+        - row "Augment Code Max $200 Per developer / monthly 450,000 credits; up to 20 users Email support and early features Official" [ref=e677]:
+          - cell "Augment Code" [ref=e678]:
+            - link "Augment Code" [ref=e679] [cursor=pointer]:
+              - /url: https://www.augmentcode.com/pricing
+              - img [ref=e680]
+              - text: Augment Code
+          - cell "Max" [ref=e681]
+          - cell "$200" [ref=e682]
+          - cell "Per developer / monthly" [ref=e683]
+          - cell "450,000 credits; up to 20 users" [ref=e684]
+          - cell "Email support and early features" [ref=e685]
+          - cell "Official" [ref=e686]:
+            - link "Official" [ref=e687] [cursor=pointer]:
+              - /url: https://www.augmentcode.com/pricing
+        - row "Kiro IDE Free $0 Monthly 50 credits; open-weight models and Claude Sonnet 4.5/4.6 access with limits Country/model availability varies Official" [ref=e688]:
+          - cell "Kiro IDE" [ref=e689]:
+            - link "Kiro IDE" [ref=e690] [cursor=pointer]:
+              - /url: https://kiro.dev/pricing/
+              - img [ref=e691]
+              - text: Kiro IDE
+          - cell "Free" [ref=e692]
+          - cell "$0" [ref=e693]
+          - cell "Monthly" [ref=e694]
+          - cell "50 credits; open-weight models and Claude Sonnet 4.5/4.6 access with limits" [ref=e695]
+          - cell "Country/model availability varies" [ref=e696]
+          - cell "Official" [ref=e697]:
+            - link "Official" [ref=e698] [cursor=pointer]:
+              - /url: https://kiro.dev/pricing/
+        - row "Kiro IDE Pro $20 Monthly 1,000 credits Overages $0.04/credit Official" [ref=e699]:
+          - cell "Kiro IDE" [ref=e700]:
+            - link "Kiro IDE" [ref=e701] [cursor=pointer]:
+              - /url: https://kiro.dev/pricing/
+              - img [ref=e702]
+              - text: Kiro IDE
+          - cell "Pro" [ref=e703]
+          - cell "$20" [ref=e704]
+          - cell "Monthly" [ref=e705]
+          - cell "1,000 credits" [ref=e706]
+          - cell "Overages $0.04/credit" [ref=e707]
+          - cell "Official" [ref=e708]:
+            - link "Official" [ref=e709] [cursor=pointer]:
+              - /url: https://kiro.dev/pricing/
+        - row "Kiro IDE Pro+ $40 Monthly 2,000 credits Overages $0.04/credit Official" [ref=e710]:
+          - cell "Kiro IDE" [ref=e711]:
+            - link "Kiro IDE" [ref=e712] [cursor=pointer]:
+              - /url: https://kiro.dev/pricing/
+              - img [ref=e713]
+              - text: Kiro IDE
+          - cell "Pro+" [ref=e714]
+          - cell "$40" [ref=e715]
+          - cell "Monthly" [ref=e716]
+          - cell "2,000 credits" [ref=e717]
+          - cell "Overages $0.04/credit" [ref=e718]
+          - cell "Official" [ref=e719]:
+            - link "Official" [ref=e720] [cursor=pointer]:
+              - /url: https://kiro.dev/pricing/
+        - row "Kiro IDE Power $200 Monthly 10,000 credits Overages $0.04/credit Official" [ref=e721]:
+          - cell "Kiro IDE" [ref=e722]:
+            - link "Kiro IDE" [ref=e723] [cursor=pointer]:
+              - /url: https://kiro.dev/pricing/
+              - img [ref=e724]
+              - text: Kiro IDE
+          - cell "Power" [ref=e725]
+          - cell "$200" [ref=e726]
+          - cell "Monthly" [ref=e727]
+          - cell "10,000 credits" [ref=e728]
+          - cell "Overages $0.04/credit" [ref=e729]
+          - cell "Official" [ref=e730]:
+            - link "Official" [ref=e731] [cursor=pointer]:
+              - /url: https://kiro.dev/pricing/
+        - row "Qoder Community Edition $0 Monthly Limited completions, next edits, basic-model messages, and BYOK Includes 2-week Pro trial Official" [ref=e732]:
+          - cell "Qoder" [ref=e733]:
+            - link "Qoder" [ref=e734] [cursor=pointer]:
+              - /url: https://docs.qoder.com/account/pricing
+              - img [ref=e735]
+              - text: Qoder
+          - cell "Community Edition" [ref=e736]
+          - cell "$0" [ref=e737]
+          - cell "Monthly" [ref=e738]
+          - cell "Limited completions, next edits, basic-model messages, and BYOK" [ref=e739]
+          - cell "Includes 2-week Pro trial" [ref=e740]
+          - cell "Official" [ref=e741]:
+            - link "Official" [ref=e742] [cursor=pointer]:
+              - /url: https://docs.qoder.com/account/pricing
+        - row "Qoder Pro $20 Monthly 2,000 credits/month for premium models Falls back to basic models after credits run out Official" [ref=e743]:
+          - cell "Qoder" [ref=e744]:
+            - link "Qoder" [ref=e745] [cursor=pointer]:
+              - /url: https://docs.qoder.com/account/pricing
+              - img [ref=e746]
+              - text: Qoder
+          - cell "Pro" [ref=e747]
+          - cell "$20" [ref=e748]
+          - cell "Monthly" [ref=e749]
+          - cell "2,000 credits/month for premium models" [ref=e750]
+          - cell "Falls back to basic models after credits run out" [ref=e751]
+          - cell "Official" [ref=e752]:
+            - link "Official" [ref=e753] [cursor=pointer]:
+              - /url: https://docs.qoder.com/account/pricing
+        - row "Qoder Pro+ $60 Monthly 6,000 credits/month for premium models Falls back to basic models after credits run out Official" [ref=e754]:
+          - cell "Qoder" [ref=e755]:
+            - link "Qoder" [ref=e756] [cursor=pointer]:
+              - /url: https://docs.qoder.com/account/pricing
+              - img [ref=e757]
+              - text: Qoder
+          - cell "Pro+" [ref=e758]
+          - cell "$60" [ref=e759]
+          - cell "Monthly" [ref=e760]
+          - cell "6,000 credits/month for premium models" [ref=e761]
+          - cell "Falls back to basic models after credits run out" [ref=e762]
+          - cell "Official" [ref=e763]:
+            - link "Official" [ref=e764] [cursor=pointer]:
+              - /url: https://docs.qoder.com/account/pricing
+        - row "Qoder Ultra $200 Monthly 20,000 credits/month for premium models For long-running Quest tasks Official" [ref=e765]:
+          - cell "Qoder" [ref=e766]:
+            - link "Qoder" [ref=e767] [cursor=pointer]:
+              - /url: https://docs.qoder.com/account/pricing
+              - img [ref=e768]
+              - text: Qoder
+          - cell "Ultra" [ref=e769]
+          - cell "$200" [ref=e770]
+          - cell "Monthly" [ref=e771]
+          - cell "20,000 credits/month for premium models" [ref=e772]
+          - cell "For long-running Quest tasks" [ref=e773]
+          - cell "Official" [ref=e774]:
+            - link "Official" [ref=e775] [cursor=pointer]:
+              - /url: https://docs.qoder.com/account/pricing
+        - row "Qoder Credit Pack $10 One-time 1,000 add-on credits On-demand top-up Official" [ref=e776]:
+          - cell "Qoder" [ref=e777]:
+            - link "Qoder" [ref=e778] [cursor=pointer]:
+              - /url: https://docs.qoder.com/account/pricing
+              - img [ref=e779]
+              - text: Qoder
+          - cell "Credit Pack" [ref=e780]
+          - cell "$10" [ref=e781]
+          - cell "One-time" [ref=e782]
+          - cell "1,000 add-on credits" [ref=e783]
+          - cell "On-demand top-up" [ref=e784]
+          - cell "Official" [ref=e785]:
+            - link "Official" [ref=e786] [cursor=pointer]:
+              - /url: https://docs.qoder.com/account/pricing
+        - row "Factory.ai (Droid) Pro $20 Monthly Standard rolling rate limits across 5-hour, weekly, and monthly windows Includes Droid Core fallback and Extra Usage option Official" [ref=e787]:
+          - cell "Factory.ai (Droid)" [ref=e788]:
+            - link "Factory.ai (Droid)" [ref=e789] [cursor=pointer]:
+              - /url: https://docs.factory.ai/pricing
+              - img [ref=e790]
+              - text: Factory.ai (Droid)
+          - cell "Pro" [ref=e791]
+          - cell "$20" [ref=e792]
+          - cell "Monthly" [ref=e793]
+          - cell "Standard rolling rate limits across 5-hour, weekly, and monthly windows" [ref=e794]
+          - cell "Includes Droid Core fallback and Extra Usage option" [ref=e795]
+          - cell "Official" [ref=e796]:
+            - link "Official" [ref=e797] [cursor=pointer]:
+              - /url: https://docs.factory.ai/pricing
+        - row "Factory.ai (Droid) Plus $100 Monthly Approx. 5x Pro standard usage; Droid Computers access Rolling rate limits Official" [ref=e798]:
+          - cell "Factory.ai (Droid)" [ref=e799]:
+            - link "Factory.ai (Droid)" [ref=e800] [cursor=pointer]:
+              - /url: https://docs.factory.ai/pricing
+              - img [ref=e801]
+              - text: Factory.ai (Droid)
+          - cell "Plus" [ref=e802]
+          - cell "$100" [ref=e803]
+          - cell "Monthly" [ref=e804]
+          - cell "Approx. 5x Pro standard usage; Droid Computers access" [ref=e805]
+          - cell "Rolling rate limits" [ref=e806]
+          - cell "Official" [ref=e807]:
+            - link "Official" [ref=e808] [cursor=pointer]:
+              - /url: https://docs.factory.ai/pricing
+        - row "Factory.ai (Droid) Max $200 Monthly Approx. 10x Pro standard usage; early feature access Rolling rate limits Official" [ref=e809]:
+          - cell "Factory.ai (Droid)" [ref=e810]:
+            - link "Factory.ai (Droid)" [ref=e811] [cursor=pointer]:
+              - /url: https://docs.factory.ai/pricing
+              - img [ref=e812]
+              - text: Factory.ai (Droid)
+          - cell "Max" [ref=e813]
+          - cell "$200" [ref=e814]
+          - cell "Monthly" [ref=e815]
+          - cell "Approx. 10x Pro standard usage; early feature access" [ref=e816]
+          - cell "Rolling rate limits" [ref=e817]
+          - cell "Official" [ref=e818]:
+            - link "Official" [ref=e819] [cursor=pointer]:
+              - /url: https://docs.factory.ai/pricing
+        - row "Factory.ai (Droid) Teams Custom Custom Custom usage limits, up to 150 seats, SSO, ZDR, admin controls Contact sales Official" [ref=e820]:
+          - cell "Factory.ai (Droid)" [ref=e821]:
+            - link "Factory.ai (Droid)" [ref=e822] [cursor=pointer]:
+              - /url: https://docs.factory.ai/pricing
+              - img [ref=e823]
+              - text: Factory.ai (Droid)
+          - cell "Teams" [ref=e824]
+          - cell "Custom" [ref=e825]
+          - cell "Custom" [ref=e826]
+          - cell "Custom usage limits, up to 150 seats, SSO, ZDR, admin controls" [ref=e827]
+          - cell "Contact sales" [ref=e828]
+          - cell "Official" [ref=e829]:
+            - link "Official" [ref=e830] [cursor=pointer]:
+              - /url: https://docs.factory.ai/pricing
+        - row "Factory.ai (Droid) Enterprise Custom Custom Unlimited members, dedicated compute, audit logs, on-premise options Contact sales Official" [ref=e831]:
+          - cell "Factory.ai (Droid)" [ref=e832]:
+            - link "Factory.ai (Droid)" [ref=e833] [cursor=pointer]:
+              - /url: https://docs.factory.ai/pricing
+              - img [ref=e834]
+              - text: Factory.ai (Droid)
+          - cell "Enterprise" [ref=e835]
+          - cell "Custom" [ref=e836]
+          - cell "Custom" [ref=e837]
+          - cell "Unlimited members, dedicated compute, audit logs, on-premise options" [ref=e838]
+          - cell "Contact sales" [ref=e839]
+          - cell "Official" [ref=e840]:
+            - link "Official" [ref=e841] [cursor=pointer]:
+              - /url: https://docs.factory.ai/pricing
+        - row "Cline Open Source $0 Usage-based inference VS Code extension, CLI, MCP marketplace, BYOK or Cline provider No subscriptions or seat fees for individuals Official" [ref=e842]:
+          - cell "Cline" [ref=e843]:
+            - link "Cline" [ref=e844] [cursor=pointer]:
+              - /url: https://cline.bot/pricing
+          - cell "Open Source" [ref=e845]
+          - cell "$0" [ref=e846]
+          - cell "Usage-based inference" [ref=e847]
+          - cell "VS Code extension, CLI, MCP marketplace, BYOK or Cline provider" [ref=e848]
+          - cell "No subscriptions or seat fees for individuals" [ref=e849]
+          - cell "Official" [ref=e850]:
+            - link "Official" [ref=e851] [cursor=pointer]:
+              - /url: https://cline.bot/pricing
+        - row "Cline Enterprise Custom Custom JetBrains extension, SSO/OIDC/SCIM, centralized billing, RBAC, team dashboard Contact sales Official" [ref=e852]:
+          - cell "Cline" [ref=e853]:
+            - link "Cline" [ref=e854] [cursor=pointer]:
+              - /url: https://cline.bot/pricing
+          - cell "Enterprise" [ref=e855]
+          - cell "Custom" [ref=e856]
+          - cell "Custom" [ref=e857]
+          - cell "JetBrains extension, SSO/OIDC/SCIM, centralized billing, RBAC, team dashboard" [ref=e858]
+          - cell "Contact sales" [ref=e859]
+          - cell "Official" [ref=e860]:
+            - link "Official" [ref=e861] [cursor=pointer]:
+              - /url: https://cline.bot/pricing
+        - row "v0 by Vercel Free $0 Monthly $5 included monthly credits; 7 messages/day Deploy to Vercel, Design Mode, GitHub sync Official" [ref=e862]:
+          - cell "v0 by Vercel" [ref=e863]:
+            - link "v0 by Vercel" [ref=e864] [cursor=pointer]:
+              - /url: https://v0.app/pricing
+              - img [ref=e865]
+              - text: v0 by Vercel
+          - cell "Free" [ref=e866]
+          - cell "$0" [ref=e867]
+          - cell "Monthly" [ref=e868]
+          - cell "$5 included monthly credits; 7 messages/day" [ref=e869]
+          - cell "Deploy to Vercel, Design Mode, GitHub sync" [ref=e870]
+          - cell "Official" [ref=e871]:
+            - link "Official" [ref=e872] [cursor=pointer]:
+              - /url: https://v0.app/pricing
+        - row "v0 by Vercel Team $30 Per user / monthly $30 included monthly credits per user; $2 daily credits on login Shared additional credits and team collaboration Official" [ref=e873]:
+          - cell "v0 by Vercel" [ref=e874]:
+            - link "v0 by Vercel" [ref=e875] [cursor=pointer]:
+              - /url: https://v0.app/pricing
+              - img [ref=e876]
+              - text: v0 by Vercel
+          - cell "Team" [ref=e877]
+          - cell "$30" [ref=e878]
+          - cell "Per user / monthly" [ref=e879]
+          - cell "$30 included monthly credits per user; $2 daily credits on login" [ref=e880]
+          - cell "Shared additional credits and team collaboration" [ref=e881]
+          - cell "Official" [ref=e882]:
+            - link "Official" [ref=e883] [cursor=pointer]:
+              - /url: https://v0.app/pricing
+        - row "v0 by Vercel Business $100 Per user / monthly $30 included monthly credits per user; $2 daily credits on login Training opt-out by default Official" [ref=e884]:
+          - cell "v0 by Vercel" [ref=e885]:
+            - link "v0 by Vercel" [ref=e886] [cursor=pointer]:
+              - /url: https://v0.app/pricing
+              - img [ref=e887]
+              - text: v0 by Vercel
+          - cell "Business" [ref=e888]
+          - cell "$100" [ref=e889]
+          - cell "Per user / monthly" [ref=e890]
+          - cell "$30 included monthly credits per user; $2 daily credits on login" [ref=e891]
+          - cell "Training opt-out by default" [ref=e892]
+          - cell "Official" [ref=e893]:
+            - link "Official" [ref=e894] [cursor=pointer]:
+              - /url: https://v0.app/pricing
+        - row "v0 by Vercel Enterprise Custom Custom No training, SAML SSO, RBAC, priority access, support SLAs Contact sales Official" [ref=e895]:
+          - cell "v0 by Vercel" [ref=e896]:
+            - link "v0 by Vercel" [ref=e897] [cursor=pointer]:
+              - /url: https://v0.app/pricing
+              - img [ref=e898]
+              - text: v0 by Vercel
+          - cell "Enterprise" [ref=e899]
+          - cell "Custom" [ref=e900]
+          - cell "Custom" [ref=e901]
+          - cell "No training, SAML SSO, RBAC, priority access, support SLAs" [ref=e902]
+          - cell "Contact sales" [ref=e903]
+          - cell "Official" [ref=e904]:
+            - link "Official" [ref=e905] [cursor=pointer]:
+              - /url: https://v0.app/pricing
+        - row "Lovable Pro $25 Monthly 100 credits/month; 5 daily credits; credit rollovers; custom domains; no badge Shared across unlimited users Official" [ref=e906]:
+          - cell "Lovable" [ref=e907]:
+            - link "Lovable" [ref=e908] [cursor=pointer]:
+              - /url: https://lovable.dev/pricing
+              - img [ref=e909]
+              - text: Lovable
+          - cell "Pro" [ref=e910]
+          - cell "$25" [ref=e911]
+          - cell "Monthly" [ref=e912]
+          - cell "100 credits/month; 5 daily credits; credit rollovers; custom domains; no badge" [ref=e913]
+          - cell "Shared across unlimited users" [ref=e914]
+          - cell "Official" [ref=e915]:
+            - link "Official" [ref=e916] [cursor=pointer]:
+              - /url: https://lovable.dev/pricing
+        - row "Lovable Business $50 Monthly 100 credits/month; internal publish; SSO; team workspace; role-based access; security center Shared across unlimited users Official" [ref=e917]:
+          - cell "Lovable" [ref=e918]:
+            - link "Lovable" [ref=e919] [cursor=pointer]:
+              - /url: https://lovable.dev/pricing
+              - img [ref=e920]
+              - text: Lovable
+          - cell "Business" [ref=e921]
+          - cell "$50" [ref=e922]
+          - cell "Monthly" [ref=e923]
+          - cell "100 credits/month; internal publish; SSO; team workspace; role-based access; security center" [ref=e924]
+          - cell "Shared across unlimited users" [ref=e925]
+          - cell "Official" [ref=e926]:
+            - link "Official" [ref=e927] [cursor=pointer]:
+              - /url: https://lovable.dev/pricing
+        - row "Lovable Enterprise Custom Platform fee Volume credit pricing, dedicated support, SCIM, custom connectors, audit logs Based on company size Official" [ref=e928]:
+          - cell "Lovable" [ref=e929]:
+            - link "Lovable" [ref=e930] [cursor=pointer]:
+              - /url: https://lovable.dev/pricing
+              - img [ref=e931]
+              - text: Lovable
+          - cell "Enterprise" [ref=e932]
+          - cell "Custom" [ref=e933]
+          - cell "Platform fee" [ref=e934]
+          - cell "Volume credit pricing, dedicated support, SCIM, custom connectors, audit logs" [ref=e935]
+          - cell "Based on company size" [ref=e936]
+          - cell "Official" [ref=e937]:
+            - link "Official" [ref=e938] [cursor=pointer]:
+              - /url: https://lovable.dev/pricing
